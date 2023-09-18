@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main>
+        <section id="contact-info">
+            <h1>Informações de Contato</h1>
+            <p>Entre em contato conosco para qualquer dúvida ou consulta. Estamos aqui para ajudar!</p>
+            <ul>
+                <li>Email: contato@banda.xyz</li>
+                <li>Telefone: (123) 456-7890</li>
+                <li>Endereço: Rua da Música, 123</li>
+                <li>Cidade: Sua Cidade</li>
+            </ul>
+        </section>
+        <section id="contact-form">
+            <h2>Formulário de Contato</h2>
+            <form action="enviar.php" method="post"> 
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Banda XYZ. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
